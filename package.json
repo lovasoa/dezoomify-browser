@@ -1,0 +1,17 @@
+{
+  "main": "browser.html",
+  "name": "dezoomify",
+  "description": "Reassemble tiles of zoomable images",
+  "version": "0.1.0",
+  "keywords": [ "zoomify", "national gallery" ],
+  "window": {
+    "title": "Dezoomify",
+    "icon": "icon.png",
+    "toolbar": false,
+    "width": 900,
+    "height": 500
+  },
+  "webkit" : {
+  	"plugin" : true
+  }
+}

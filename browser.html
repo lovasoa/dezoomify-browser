@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf8" />
+		<title>Dézoomystificateur</title>
+		<link rel="stylesheet" href="main.css">
+		<script type="text/javascript" src="detector.js" ></script>
+		<script type="text/javascript" src="browser.js" ></script>
+	</head>
+	<body>
+	
+		<div id="zoomify">
+				<div id="buttons">
+					<button id="prev" title="Go to the previous page">↩</button>
+					<button id="homebutton" title="Go back to the home page" >↸</button>
+					<button id="redetect" title="Re-launch zoomifier detection for this page" >⚒</button>
+				</div>
+				<div id="bar">
+					<form action="#" id="browserform">
+						<input type="text" id="adressbar" value="" placeholder="URL or Google search" />
+					</form>
+				</div>
+		</div>
+
+		<div id="browser">
+			<iframe id="browserframe" width="100" onload="" src="startpage.html" nwdisable="true" nwfaketop="true" />
+		</div>
+	</body>
+</html>
